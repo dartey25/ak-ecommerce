@@ -3,14 +3,14 @@ export function Merchandise() {
     <section>
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-          <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
+          <div className="grid p-6 bg-foreground rounded place-content-center sm:p-8">
             <div className="max-w-md mx-auto text-center lg:text-left">
               <header>
-                <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
+                <h2 className="text-xl font-bold text-background-800 sm:text-3xl">
                   Watches
                 </h2>
 
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-background-600">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
                   rerum quam amet provident nulla error!
                 </p>
@@ -18,7 +18,7 @@ export function Merchandise() {
 
               <a
                 href="#"
-                className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-background-800 border border-background-800 rounded hover:shadow focus:outline-none focus:ring"
               >
                 Shop All
               </a>
@@ -36,11 +36,11 @@ export function Merchandise() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-medium text-muted group-hover:underline group-hover:underline-offset-4">
                       Simple Watch
                     </h3>
 
-                    <p className="mt-1 text-sm text-gray-700">$150</p>
+                    <p className="mt-1 text-sm text-muted-600">$150</p>
                   </div>
                 </a>
               </li>
@@ -54,11 +54,11 @@ export function Merchandise() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-medium text-muted group-hover:underline group-hover:underline-offset-4">
                       Simple Watch
                     </h3>
 
-                    <p className="mt-1 text-sm text-gray-700">$150</p>
+                    <p className="mt-1 text-sm text-muted-600">$150</p>
                   </div>
                 </a>
               </li>

@@ -4,8 +4,8 @@ export function Reviews() {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 minima dicta amet, molestiae aliquam incidunt suscipit
                 recusandae labore ratione doloremque, architecto et illo minus
@@ -31,8 +31,8 @@ export function Reviews() {
           </div>
 
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 vel quo deserunt quos expedita minima incidunt sed tempora, a
                 architecto consectetur reprehenderit, in repellat voluptatum.
@@ -54,8 +54,8 @@ export function Reviews() {
           </div>
 
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 beatae incidunt perferendis soluta facilis voluptas dicta
                 repudiandae quasi asperiores libero, exercitationem molestiae
@@ -78,8 +78,8 @@ export function Reviews() {
           </div>
 
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 doloribus eius aut unde, dolores accusantium!
               </p>
@@ -100,8 +100,8 @@ export function Reviews() {
           </div>
 
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
                 a voluptatum quidem nulla quisquam natus velit provident earum
                 esse, odio numquam labore recusandae similique sunt.
@@ -123,8 +123,8 @@ export function Reviews() {
           </div>
 
           <div className="mb-8 sm:break-inside-avoid">
-            <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-              <p className="leading-relaxed text-gray-700">
+            <blockquote className="rounded-xl bg-foreground p-6 shadow">
+              <p className="leading-relaxed text-background">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
                 ut necessitatibus, repudiandae qui dolor minima.
               </p>

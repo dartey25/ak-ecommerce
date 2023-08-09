@@ -21,6 +21,7 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        white: "#e3e3e3",
         background: {
           ...colors.zinc,
           DEFAULT: colors.zinc[900],
