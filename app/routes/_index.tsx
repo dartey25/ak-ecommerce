@@ -1,4 +1,5 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import { HeroSection } from "~/components/hero-section";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -8,9 +9,5 @@ export const meta: V2_MetaFunction = () => {
 };
 
 export default function Index() {
-  return (
-    <div>
-      <div className="text-4xl text-violet-300">Kolly Amandine Shop</div>
-    </div>
-  );
+  return <HeroSection />;
 }

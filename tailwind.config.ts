@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 export default {
   darkMode: ["class"],
   content: [
@@ -20,11 +21,20 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: {
+          ...colors.zinc,
+          DEFAULT: colors.zinc[900],
+          foreground: "#e3e3e3",
+        },
+        foreground: {
+          ...colors.zinc,
+          DEFAULT: "#e3e3e3",
+        },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          ...colors.violet,
+          DEFAULT: colors.violet[300],
+          foreground: "#fff",
+          // hover: "var(--primary-hover)",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -35,8 +45,8 @@ export default {
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          ...colors.neutral,
+          DEFAULT: colors.neutral[400],
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",

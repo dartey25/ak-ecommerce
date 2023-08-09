@@ -20,7 +20,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-[#121212]">
+      <body className="bg-background-900">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
@@ -29,3 +29,4 @@ export default function App() {
     </html>
   );
 }
+
