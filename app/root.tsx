@@ -8,6 +8,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import styles from "./globals.css";
+import { Navigation } from "./components/navigation";
+import { Footer } from "./components/footer";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
@@ -21,7 +23,9 @@ export default function App() {
         <Links />
       </head>
       <body className="bg-background">
+        <Navigation />
         <Outlet />
+        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
@@ -29,4 +33,3 @@ export default function App() {
     </html>
   );
 }
-

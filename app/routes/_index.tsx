@@ -1,5 +1,4 @@
 import type { V2_MetaFunction } from "@remix-run/node";
-import { Footer } from "~/components/footer";
 import { HeroSection } from "~/components/hero-section";
 import { Merchandise } from "~/components/merchandise";
 import { Reviews } from "~/components/reviews";
@@ -17,7 +16,6 @@ export default function Index() {
       <HeroSection />
       <Merchandise />
       <Reviews />
-      <Footer />
     </>
   );
 }
