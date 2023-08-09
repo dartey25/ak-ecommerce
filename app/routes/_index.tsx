@@ -1,5 +1,8 @@
 import type { V2_MetaFunction } from "@remix-run/node";
+import { Footer } from "~/components/footer";
 import { HeroSection } from "~/components/hero-section";
+import { Merchandise } from "~/components/merchandise";
+import { Reviews } from "~/components/reviews";
 
 export const meta: V2_MetaFunction = () => {
   return [
@@ -9,5 +12,12 @@ export const meta: V2_MetaFunction = () => {
 };
 
 export default function Index() {
-  return <HeroSection />;
+  return (
+    <>
+      <HeroSection />
+      <Merchandise />
+      <Reviews />
+      <Footer />
+    </>
+  );
 }
