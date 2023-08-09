@@ -49,9 +49,11 @@ export default {
           ...colors.neutral,
           DEFAULT: colors.neutral[400],
         },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+        accent:  {
+          ...colors.red,
+          DEFAULT: colors.red[500],
+          foreground: "#fff",
+          // hover: "var(--primary-hover)",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
