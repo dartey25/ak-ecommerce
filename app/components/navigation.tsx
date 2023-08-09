@@ -1,5 +1,6 @@
 "use client";
-import { MagnifyingGlassIcon, ShoppingCartIcon } from "@heroicons/react/24/outline";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { ShoppingCart } from "./shopping-cart";
 
 export function Navigation() {
   return (
@@ -98,7 +99,7 @@ export function Navigation() {
           href="#"
           className="text-sm font-semibold leading-6 text-muted-500 hover:text-muted"
         >
-          <ShoppingCartIcon className="w-6 h-6" />
+          <ShoppingCart />
         </a>
       </div>
     </nav>
