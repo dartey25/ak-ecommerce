@@ -23,7 +23,7 @@ export default function App() {
         <Links />
       </head>
       <body className="font-futura">
-        <div className="z-0 w-screen h-full absolute top-0 bottom-0 left-0 right-0 bg-repeat-round bg-[url('https://i.pinimg.com/736x/b0/6b/82/b06b82c89a7388382f9f2d4304ca0e72--vintage-film-album-covers.jpg')] mix-blend-multiply pointer-events-none opacity-50" />
+        <div className="z-0 w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-repeat-round bg-[url('https://i.pinimg.com/736x/b0/6b/82/b06b82c89a7388382f9f2d4304ca0e72--vintage-film-album-covers.jpg')] mix-blend-multiply pointer-events-none opacity-50" />
 
         <div className="relative">
           <Navigation />
