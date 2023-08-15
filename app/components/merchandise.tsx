@@ -6,7 +6,7 @@ export function Merchandise() {
           <div className="grid p-6 bg-foreground rounded place-content-center sm:p-8">
             <div className="max-w-md mx-auto text-center lg:text-left">
               <header>
-                <h2 className="text-xl font-bold text-background-800 sm:text-3xl">
+                <h2 className="text-xl font-futura_bold text-background-800 sm:text-3xl">
                   Watches
                 </h2>
 
@@ -18,7 +18,7 @@ export function Merchandise() {
 
               <a
                 href="#"
-                className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-background-800 border border-background-800 rounded hover:shadow focus:outline-none focus:ring"
+                className="inline-block px-12 py-3 mt-8 text-sm font-futura_medium text-white transition bg-background-800 border border-background-800 rounded hover:shadow focus:outline-none focus:ring"
               >
                 Shop All
               </a>
@@ -36,7 +36,7 @@ export function Merchandise() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-muted group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-futura_medium text-foreground-muted group-hover:underline group-hover:underline-offset-4">
                       Simple Watch
                     </h3>
 
@@ -54,7 +54,7 @@ export function Merchandise() {
                   />
 
                   <div className="mt-3">
-                    <h3 className="font-medium text-muted group-hover:underline group-hover:underline-offset-4">
+                    <h3 className="font-futura_medium text-foreground-muted group-hover:underline group-hover:underline-offset-4">
                       Simple Watch
                     </h3>
 

@@ -19,13 +19,13 @@ export function Footer() {
 
               <a
                 href="#"
-                className="block text-2xl font-medium text-foreground hover:text-muted-400 sm:text-3xl"
+                className="block text-2xl font-futura_medium text-foreground hover:text-foreground-muted sm:text-3xl"
               >
                 0123456789
               </a>
             </p>
 
-            <ul className="mt-8 space-y-1 text-sm text-muted-500">
+            <ul className="mt-8 space-y-1 text-sm text-foreground-muted">
               <li>Monday to Friday: 10am - 5pm</li>
               <li>Weekend: 10am - 3pm</li>
             </ul>
@@ -36,7 +36,7 @@ export function Footer() {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-muted-500 transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   <span className="sr-only">Facebook</span>
 
@@ -60,7 +60,7 @@ export function Footer() {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-muted-500 transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   <span className="sr-only">Instagram</span>
 
@@ -84,7 +84,7 @@ export function Footer() {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-muted-500 transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   <span className="sr-only">Twitter</span>
 
@@ -103,13 +103,13 @@ export function Footer() {
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <p className="font-medium text-foreground">Services</p>
+              <p className="font-futura_medium text-foreground">Services</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     1on1 Coaching
                   </a>
@@ -118,7 +118,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     Company Review
                   </a>
@@ -127,7 +127,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     Accounts Review
                   </a>
@@ -136,7 +136,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     HR Consulting
                   </a>
@@ -145,7 +145,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     SEO Optimisation
                   </a>
@@ -154,13 +154,13 @@ export function Footer() {
             </div>
 
             <div>
-              <p className="font-medium text-foreground">Company</p>
+              <p className="font-futura_medium text-foreground">Company</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     About
                   </a>
@@ -169,7 +169,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     Meet the Team
                   </a>
@@ -178,7 +178,7 @@ export function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-muted-500 transition hover:text-muted-400"
+                    className="text-foreground-muted transition hover:text-foreground-muted"
                   >
                     Accounts Review
                   </a>
@@ -194,7 +194,7 @@ export function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-muted transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   Terms & Conditions
                 </a>
@@ -203,7 +203,7 @@ export function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-muted transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   Privacy Policy
                 </a>
@@ -212,14 +212,14 @@ export function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-muted transition hover:text-muted-400"
+                  className="text-foreground-muted transition hover:text-foreground-muted"
                 >
                   Cookies
                 </a>
               </li>
             </ul>
 
-            <p className="mt-8 text-xs text-muted sm:mt-0">
+            <p className="mt-8 text-xs text-foreground-muted sm:mt-0">
               &copy; 2023. Amandine Kolly. All rights reserved.
             </p>
           </div>

@@ -11,7 +11,7 @@ export default function Index() {
   return (<section className="min-h-screen">
   <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
     <header>
-      <h2 className="text-xl font-bold sm:text-3xl">
+      <h2 className="text-xl font-futura_bold sm:text-3xl">
         Product Collection
       </h2>
 

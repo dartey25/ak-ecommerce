@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import colors from "tailwindcss/colors";
+import defaultTheme from "tailwindcss/defaultTheme";
 export default {
   darkMode: ["class"],
   content: [
@@ -17,6 +18,18 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        rock: ["The Fontman", ...defaultTheme.fontFamily.sans],
+        futura: ["Futura PT Book", ...defaultTheme.fontFamily.sans],
+        futura_medium: ["Futura PT", ...defaultTheme.fontFamily.sans],
+        futura_bold: ["Futura PT Demi", ...defaultTheme.fontFamily.sans],
+        futura_black: ["Futura PT Cond Extra", ...defaultTheme.fontFamily.sans],
+      },
+      fontSize: {
+        sm: "1rem",
+        base: "1.25rem",
+        lg: "1.5rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -28,8 +41,20 @@ export default {
           foreground: "#e3e3e3",
         },
         foreground: {
-          ...colors.zinc,
-          DEFAULT: "#e3e3e3",
+          "50": "#f8f7f4",
+          "100": "#eeeee6",
+          "200": "#dddbcb",
+          "300": "#c3bea5",
+          "400": "#afa788",
+          "500": "#9f9270",
+          "600": "#928364",
+          "700": "#7a6b54",
+          "800": "#645848",
+          "900": "#52493c",
+          "950": "#2b261f",
+          muted: "#dddbcb",
+          DEFAULT: "#edece3",
+          //DEFAULT: "#f9f4da",
         },
         primary: {
           ...colors.violet,
@@ -49,7 +74,21 @@ export default {
           ...colors.neutral,
           DEFAULT: colors.neutral[400],
         },
-        accent:  {
+        crimson: {
+          "50": "#feedec",
+          "100": "#fddfdd",
+          "200": "#fdc7c4",
+          "300": "#fba39d",
+          "400": "#fa7066",
+          "500": "#fa3d33",
+          "600": "#e33026",
+          "700": "#ce0d03",
+          "800": "#a90f04",
+          "900": "#8c130d",
+          "950": "#450703",
+          DEFAULT: "#fa3d33",
+        },
+        accent: {
           ...colors.red,
           DEFAULT: colors.red[500],
           foreground: "#fff",

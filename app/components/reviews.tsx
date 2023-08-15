@@ -24,7 +24,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>
@@ -47,7 +47,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>
@@ -93,7 +93,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>
@@ -116,7 +116,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>
@@ -138,7 +138,7 @@ export function Reviews() {
               />
 
               <div className="text-sm">
-                <p className="font-medium">Gladis Lennon</p>
+                <p className="font-futura_medium">Gladis Lennon</p>
                 <p className="mt-1">Head of SEO</p>
               </div>
             </div>

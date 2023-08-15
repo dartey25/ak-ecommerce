@@ -1,4 +1,3 @@
-import { Navigation } from "./navigation";
 import { IntensityMakesChampionsBadge } from "./ui/badge";
 
 export function HeroSection() {
@@ -15,26 +14,26 @@ export function HeroSection() {
       </div>
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="text-center relative">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-            Kolly Amandine website
+          <h1 className="text-6xl font-rock tracking-tight text-foreground sm:text-7xl">
+            The Amandine
           </h1>
-          <IntensityMakesChampionsBadge className="absolute"/>
+          <IntensityMakesChampionsBadge className="absolute" />
           <p className="mt-6 text-lg leading-8 text-muted">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat aliqua.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          {/* <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              className="rounded-md bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600"
+              className="rounded-md bg-crimson px-3.5 py-2.5 text-sm font-futura_medium text-white shadow-sm hover:bg-crimson-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-crimson-600"
             >
               Get started
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-muted">
+            <a href="#" className="text-sm font-futura_medium leading-6 text-muted">
               Learn more <span aria-hidden="true">→</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
