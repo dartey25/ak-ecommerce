@@ -27,7 +27,9 @@ export default function App() {
 
         <div className="relative">
           <Navigation />
-          <Outlet />
+          <div className="pt-14">
+            <Outlet />
+          </div>
           <Footer />
         </div>
 

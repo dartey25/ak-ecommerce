@@ -6,7 +6,7 @@ export const IntensityMakesChampionsBadge = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={cn(
-      "bg-crimson text-[#fff] text-xl tracking-tighter uppercase max-w-max",
+      "bg-crimson text-[#fff] text-supreme uppercase max-w-max",
       className
     )}
     {...rest}

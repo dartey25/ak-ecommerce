@@ -116,7 +116,8 @@
     font-family: "Futura PT Demi";
     src: url("lib/fonts/futura/FuturaPT-Demi.eot");
     src: local("Futura PT Demi"), local("FuturaPT-Demi"),
-      url("lib/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"),
+      url("lib/fonts/futura/FuturaPT-Demi.eot?#iefix")
+        format("embedded-opentype"),
       url("lib/fonts/futura/FuturaPT-Demi.woff2") format("woff2"),
       url("lib/fonts/futura/FuturaPT-Demi.woff") format("woff"),
       url("lib/fonts/futura/FuturaPT-Demi.ttf") format("truetype");
@@ -126,5 +127,11 @@
 
   body {
     @apply bg-background text-foreground relative;
+  }
+
+  .text-supreme {
+    font-size: 1.5rem;
+    font-family: "Futura PT Cond Extra";
+    line-height: 1.75rem;
   }
 }

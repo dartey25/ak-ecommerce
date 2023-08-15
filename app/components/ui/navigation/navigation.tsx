@@ -61,7 +61,10 @@ export function Navigation() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <a href="/" className="text-sm font-futura_medium leading-6 text-muted">
+          <a
+            href="/"
+            className="text-sm font-futura_medium leading-6 text-muted"
+          >
             Homepage
           </a>
           <a
@@ -96,9 +99,7 @@ export function Navigation() {
           >
             <MagnifyingGlassIcon className="w-6 h-6" />
           </a>
-          <button
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
-          >
+          <button className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted">
             <ShoppingCart />
           </button>
         </div>
