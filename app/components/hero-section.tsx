@@ -19,7 +19,6 @@ export function HeroSection() {
           
           <h1 className="text-5xl font-rock tracking-tight text-accent-500 sm:text-7xl select-none">
           <span className="text-foreground z-[-1] text-4xl sm:text-6xl">The</span>
-          
           <span className="relative right-5">Amandine</span>
           </h1>
           <IntensityMakesChampionsBadge className="absolute" />
