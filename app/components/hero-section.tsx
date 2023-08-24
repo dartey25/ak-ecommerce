@@ -1,5 +1,7 @@
 import { IntensityMakesChampionsBadge } from "./ui/badge";
 
+//drop-shadow-[0_0_6px_rgba(255,0,0,0.5)]
+
 export function HeroSection() {
   return (
     <div className="relative isolate px-6 lg:px-8">
@@ -14,8 +16,11 @@ export function HeroSection() {
       </div>
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="text-center relative">
-          <h1 className="text-6xl font-rock tracking-tight text-foreground sm:text-7xl">
-            The Amandine
+          
+          <h1 className="text-5xl font-rock tracking-tight text-accent-500 sm:text-7xl select-none">
+          <span className="text-foreground z-[-1] text-4xl sm:text-6xl">The</span>
+          
+          <span className="relative right-5">Amandine</span>
           </h1>
           <IntensityMakesChampionsBadge className="absolute" />
           <p className="mt-6 text-lg leading-8 text-muted">
