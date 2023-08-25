@@ -27,6 +27,7 @@ export default function App() {
 
         <div className="relative">
           <Navigation />
+          <div className="h-screen w-44 bg-accent fixed"></div>
           <div className="pt-14">
             <Outlet />
           </div>
