@@ -125,6 +125,36 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: Midnight OTF;
+    src: url(lib/fonts/Midnight_Terror.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Midnight WOFF;
+    src: url(lib/fonts/Midnight_Terror.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Midnight TTF;
+    src: url(lib/fonts/Midnight_Terror.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Peculiar OTF;
+    src: url(lib/fonts/Peculiar_People.otf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Peculiar WOFF;
+    src: url(lib/fonts/Peculiar_People.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Peculiar TTF;
+    src: url(lib/fonts/Peculiar_People.ttf) format("truetype");
+  }
+
   body {
     @apply bg-background text-foreground relative;
   }

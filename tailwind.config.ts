@@ -20,6 +20,13 @@ export default {
     extend: {
       fontFamily: {
         rock: ["The Fontman", ...defaultTheme.fontFamily.sans],
+        midnight: [
+          "Midnight TTF",
+          "Midnight WOFF",
+          "Midnight OTF",
+          ...defaultTheme.fontFamily.sans,
+        ],
+        peculiar: ["Peculiar TTF", ...defaultTheme.fontFamily.sans],
         futura: ["Futura PT Book", ...defaultTheme.fontFamily.sans],
         futura_medium: ["Futura PT", ...defaultTheme.fontFamily.sans],
         futura_bold: ["Futura PT Demi", ...defaultTheme.fontFamily.sans],
