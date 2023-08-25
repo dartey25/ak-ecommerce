@@ -41,13 +41,13 @@ export function Navigation() {
             </svg>
           </button>
         </div>
-        <div className="max-lg:hidden flex gap-x-12 font-peculiar">
+        <div className="max-lg:hidden flex gap-x-12 font-peculiar alternativeFont">
           <a href="/" className="leading-6">
             Homepage
           </a>
           <a
             href="/coaching"
-            className="leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted normalFont hover:text-muted"
           >
             Coaching
           </a>

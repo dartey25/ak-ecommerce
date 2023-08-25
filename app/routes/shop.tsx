@@ -12,7 +12,9 @@ export default function Index() {
     <section className="min-h-screen">
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
         <header>
-          <h2 className="text-4xl font-midnight sm:text-6xl">Merchandise</h2>
+          <h2 className="text-4xl font-midnight alternativeFont sm:text-6xl">
+            Merchandise
+          </h2>
 
           <p className="max-w-md mt-4 text-foreground">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque

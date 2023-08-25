@@ -21,9 +21,9 @@ export default {
       fontFamily: {
         rock: ["The Fontman", ...defaultTheme.fontFamily.sans],
         midnight: [
+          "Midnight OTF",
           "Midnight TTF",
           "Midnight WOFF",
-          "Midnight OTF",
           ...defaultTheme.fontFamily.sans,
         ],
         peculiar: ["Peculiar TTF", ...defaultTheme.fontFamily.sans],

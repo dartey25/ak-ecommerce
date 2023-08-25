@@ -175,6 +175,15 @@
     @apply drop-shadow-[3px_5px_0_rgba(249,244,218,1)];
   }
 
+  .alternativeFont {
+    font-feature-settings: "calt" 1, "rlig" 1, "rvrn" 1, "kern" 1, "rclt" 1,
+      "liga" 1, "aalt" 1;
+  }
+
+  .normalFont {
+    font-feature-settings: normal;
+  }
+
   .scrollText {
     @apply text-sm uppercase text-foreground-muted;
     font-family: "Futura PT Demi";
