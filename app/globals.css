@@ -160,15 +160,26 @@
   }
 
   .text-supreme {
-    font-size: 1.5rem;
-    font-family: "Futura PT Cond Extra";
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    font-family: "Futura PT Demi";
+    line-height: 2rem;
   }
 
   .bookmarkText {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     transform: rotate(180deg);
+  }
+
+  .badgeShadow {
+    @apply drop-shadow-[3px_5px_0_rgba(249,244,218,1)];
+  }
+
+  .scrollText {
+    @apply text-sm uppercase text-foreground-muted;
+    font-family: "Futura PT Demi";
+    writing-mode: vertical-rl;
+    text-orientation: upright;
   }
 
   /* .nav-underline::after {

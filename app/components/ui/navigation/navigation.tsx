@@ -10,7 +10,7 @@ export function Navigation() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Amandine Kolly personal website</span>
             <img
               className="invert-[70%] h-36"
@@ -56,18 +56,6 @@ export function Navigation() {
             className="leading-6 text-foreground-muted hover:text-muted"
           >
             Shop
-          </a>
-          <a
-            href="/blog"
-            className="leading-6 text-foreground-muted hover:text-muted"
-          >
-            Blog
-          </a>
-          <a
-            href="#"
-            className="leading-6 text-foreground-muted hover:text-muted"
-          >
-            Contact me
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-3">

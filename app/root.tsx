@@ -10,6 +10,7 @@ import {
 import styles from "./globals.css";
 import { Navigation } from "./components/ui/navigation/navigation";
 import { Footer } from "./components/footer";
+import { IntensityMakesChampionsBadge } from "./components/ui/intensity-badge";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
@@ -27,11 +28,7 @@ export default function App() {
 
         <div className="relative">
           <Navigation />
-          <div className="h-screen flex flex-col justify-center fixed z-[50]">
-            <div className="w-10 bg-accent py-5">
-              <p className="bookmarkText">intensity makes champions</p>
-            </div>
-          </div>
+          <IntensityMakesChampionsBadge />
           <div className="pt-14">
             <Outlet />
           </div>
