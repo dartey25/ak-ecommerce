@@ -165,9 +165,10 @@
     line-height: 1.75rem;
   }
 
-  .nav-underline {
-    color: transparent !important;
-    -webkit-text-stroke: 1px white;
+  .bookmarkText {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
   }
 
   /* .nav-underline::after {

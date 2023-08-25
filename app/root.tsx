@@ -27,39 +27,10 @@ export default function App() {
 
         <div className="relative">
           <Navigation />
-          <div className="h-screen w-44 bg-accent fixed">
-            {/* <div
-              className="max-lg:hidden flex flex-col mt-48 ml-16
-             gap-y-12 font-peculiar text-[1.65rem]"
-            >
-              <a href="/" className="leading-6 hover:nav-underline">
-                Homepage
-              </a>
-              <a
-                href="/coaching"
-                className="leading-6 text-foreground-muted hover:text-muted"
-              >
-                Coaching
-              </a>
-              <a
-                href="/shop"
-                className="leading-6 text-foreground-muted hover:text-muted"
-              >
-                Shop
-              </a>
-              <a
-                href="/blog"
-                className="leading-6 text-foreground-muted hover:text-muted"
-              >
-                Blog
-              </a>
-              <a
-                href="#"
-                className="leading-6 text-foreground-muted hover:text-muted"
-              >
-                Contact me
-              </a>
-            </div> */}
+          <div className="h-screen flex flex-col justify-center fixed z-[50]">
+            <div className="w-10 bg-accent py-5">
+              <p className="bookmarkText">intensity makes champions</p>
+            </div>
           </div>
           <div className="pt-14">
             <Outlet />
