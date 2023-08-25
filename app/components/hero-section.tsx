@@ -32,23 +32,23 @@ export function HeroSection() {
               Amandine
             </span>
           </h1>
-          <div className="text-end mt-6">
+          <div className="text-end mt-2">
             <p className="text-lg leading-8 text-muted">
               Whether you're looking for a training plan, diet plan or both, I
-              got you
+              got you!
             </p>
           </div>
           <div className="mt-10 flex items-center justify-end gap-x-10">
             <a
               href="#"
-              className="rounded-md bg-foreground px-20 py-2.5 text-sm font-futura_medium text-background shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-crimson-600"
+              className="rounded-md bg-foreground px-20 py-2.5 font-futura_medium text-background shadow-smfocus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-crimson-600"
             >
               Buy merch
             </a>
 
             <a
               href="#"
-              className="rounded-md bg-accent-500 px-20 py-2.5 text-sm font-futura_medium text-foreground shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-crimson-600"
+              className="rounded-md bg-accent-500 px-20 py-2.5 font-futura_medium text-foreground shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-crimson-600"
             >
               Get coaching
             </a>

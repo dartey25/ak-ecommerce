@@ -6,7 +6,7 @@ export function Navigation() {
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex items-start justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -41,46 +41,43 @@ export function Navigation() {
             </svg>
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
-          <a
-            href="/"
-            className="text-sm font-futura_medium leading-6 text-muted"
-          >
+        <div className="max-lg:hidden flex gap-x-12 font-peculiar">
+          <a href="/" className="leading-6">
             Homepage
           </a>
           <a
             href="/coaching"
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted hover:text-muted"
           >
             Coaching
           </a>
           <a
             href="/shop"
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted hover:text-muted"
           >
             Shop
           </a>
           <a
             href="/blog"
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted hover:text-muted"
           >
             Blog
           </a>
           <a
             href="#"
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted hover:text-muted"
           >
             Contact me
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-3">
-          <a
+          {/* <a
             href="#"
-            className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted"
+            className="leading-6 text-foreground-muted hover:text-muted"
           >
-            <MagnifyingGlassIcon className="w-6 h-6" />
-          </a>
-          <button className="text-sm font-futura_medium leading-6 text-foreground-muted hover:text-muted">
+            <MagnifyingGlassIcon className="w-8 h-8" />
+          </a> */}
+          <button className="text-sm leading-6 text-foreground-muted hover:text-muted">
             <ShoppingCart />
           </button>
         </div>

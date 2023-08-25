@@ -59,9 +59,9 @@ export default {
           "800": "#645848",
           "900": "#52493c",
           "950": "#2b261f",
-          muted: "#dddbcb",
-          DEFAULT: "#edece3",
-          //DEFAULT: "#f9f4da",
+          muted: "#817d71",
+          // DEFAULT: "#edece3",
+          DEFAULT: "#f9f4da",
         },
         primary: {
           ...colors.violet,

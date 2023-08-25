@@ -5,7 +5,7 @@ export function ShoppingCart() {
   return (
     <Sheet>
       <SheetTrigger>
-        <ShoppingCartIcon className="w-5 h-5" />
+        <ShoppingCartIcon className="w-8 h-8" />
       </SheetTrigger>
       <SheetContent>
         <CartForm />

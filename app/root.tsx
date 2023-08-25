@@ -22,12 +22,45 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="font-futura">
+      <body className="font-futura text-base">
         <div className="z-0 w-full h-full absolute top-0 bottom-0 left-0 right-0 bg-repeat-round bg-[url('https://i.pinimg.com/736x/b0/6b/82/b06b82c89a7388382f9f2d4304ca0e72--vintage-film-album-covers.jpg')] mix-blend-multiply pointer-events-none opacity-50" />
 
         <div className="relative">
           <Navigation />
-          <div className="h-screen w-44 bg-accent fixed"></div>
+          <div className="h-screen w-44 bg-accent fixed">
+            {/* <div
+              className="max-lg:hidden flex flex-col mt-48 ml-16
+             gap-y-12 font-peculiar text-[1.65rem]"
+            >
+              <a href="/" className="leading-6 hover:nav-underline">
+                Homepage
+              </a>
+              <a
+                href="/coaching"
+                className="leading-6 text-foreground-muted hover:text-muted"
+              >
+                Coaching
+              </a>
+              <a
+                href="/shop"
+                className="leading-6 text-foreground-muted hover:text-muted"
+              >
+                Shop
+              </a>
+              <a
+                href="/blog"
+                className="leading-6 text-foreground-muted hover:text-muted"
+              >
+                Blog
+              </a>
+              <a
+                href="#"
+                className="leading-6 text-foreground-muted hover:text-muted"
+              >
+                Contact me
+              </a>
+            </div> */}
+          </div>
           <div className="pt-14">
             <Outlet />
           </div>
